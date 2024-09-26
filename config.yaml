@@ -1,0 +1,51 @@
+# Base directory where all reads are stored
+paths:
+    BASE_DIR: "PATH_To_READS"
+    WDIR: "PATH_To_RESULTS"
+    dataset_dir: "{BASE_DIR}/DATASET_NAME"
+
+# List of prefixes for the speciesto be processed
+prefixes:
+  - Bacillus
+  - Brucella
+  - Vibrio_cholerae
+  - Vibrio_parahaemolyticus
+  - Xylella
+  - Yersinia
+  - Salmonella
+  - Staphylococcus
+  - Listeria
+  - Burkholderia
+  - Campylobacter
+  - Clostridium
+  - E_coli
+  - Klebsiella
+  - Leptospira
+  - Mycobacterium
+  - Neisseria
+  - Pseudomonas
+  - Taylorella_equi
+  - Ralstonia
+
+# Database paths for cgMLST schemes
+db:
+  cgMLST:
+    Staphylococcus: "cgMLST_db/Staphylococcus/<SCHEMA_NAME>/"
+    Listeria: "cgMLST_db/Listeria/<SCHEMA_NAME>/"
+    Bacillus: "cgMLST_db/<SCHEMA_NAME>/"
+    Burkholderia: "cgMLST_db/<SCHEMA_NAME>/"
+    Campylobacter: "cgMLST_db/<SCHEMA_NAME>/"
+    Clostridium: "cgMLST_db/Clostridium/<SCHEMA_NAME>/"
+    E_coli: "cgMLST_db/<SCHEMA_NAME>/"
+    Klebsiella: "cgMLST_db/<SCHEMA_NAME>/"
+    Leptospira: "cgMLST_db/<SCHEMA_NAME>/"
+    Mycobacterium: "cgMLST_db/<SCHEMA_NAME>/"
+    Neisseria: "cgMLST_db/<SCHEMA_NAME>/"
+    Pseudomonas: "cgMLST_db/<SCHEMA_NAME>/"
+    Salmonella: "cgMLST_db/Salmonella/<SCHEMA_NAME>/"
+    Taylorella_equi: "cgMLST_db/Taylorella_equi/<SCHEMA_NAME>/"
+    Brucella: "cgMLST_db/<SCHEMA_NAME>/"
+    Vibrio_cholerae: "cgMLST_db/<SCHEMA_NAME>/"
+    Vibrio_parahaemolyticus: "cgMLST_db/<SCHEMA_NAME>/"
+    Xylella: "cgMLST_db/Xylella/<SCHEMA_NAME>/"
+    Yersinia: "cgMLST_db/yersinia_enterocolitica/<SCHEMA_NAME>/"
