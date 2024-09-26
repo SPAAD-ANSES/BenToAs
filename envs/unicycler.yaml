@@ -1,0 +1,7 @@
+name: unicycler
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - unicycler=0.4.8=py36hd181a71_3

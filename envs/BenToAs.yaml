@@ -1,0 +1,14 @@
+name: newBacflow
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - biopython=1.81=py310h1fa729e_0
+  - chewbbaca=2.8.5=pyhdfd78af_0
+  - grapetree=2.1=pyh3252c3a_0
+  - pip:
+    - checkm-genome==1.2.2
+    - numpy==1.22.0
+prefix: /global/bio/anaconda3/envs/newBacflow

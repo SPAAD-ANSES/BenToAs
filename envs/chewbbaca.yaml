@@ -1,0 +1,7 @@
+name: chewbbaca 
+channels: 
+    - conda-forge 
+    - defaults 
+    - bioconda 
+dependencies:  
+    - chewbbaca=2.8.5 
