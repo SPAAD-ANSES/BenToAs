@@ -65,8 +65,9 @@ Exemple FASTQ file structure:
    ├── sample1_75X_GQ_2.fq.gz
    ├── sample2_75X_GQ_1.fq.gz
    └── sample2_75X_GQ_2.fq.gz
+   ```
 The workflow will automatically detect samples based on this file structure. 
-	 ```
+   
 ---
 
 ## Output Data
@@ -107,7 +108,7 @@ The workflow uses a YAML configuration file (config.yaml) to define key paramete
      cgMLST:
        Bacillus: "<PATH_TO_cgMLST_SCHEMA>"
        ...
-
+   ```
 ---
 
 ## Rules
@@ -126,9 +127,9 @@ Prepares the input for cgMLST analysis based on species-specific genome lists.
 Runs chewBBACA allele calling for each species.
 
 4. **Distance matrix calcultation** (chewbbaca_dist):
-Computes distance matrices from allele profiles.
+Computes distance matrices from allele profiles. 
 
-5. **Phylogenetic tree generation (chewbbaca_tree):
+5. **Phylogenetic tree generation** (chewbbaca_tree):
 Constructs phylogenetic trees in Newick format.
 
 ---
